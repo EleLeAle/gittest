@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.statistics{
+    background:#03251a;
+}
+
+.statistics_inner{
+    height: 300px;
+    display: flex;
+    justify-content: space-around; /*Блоки распределены вдоль главной (горизонтальной) оси,
+                                       при этом между первым блоком и началом оси, последним
+                                       блоком и концом оси такой же промежуток, как и между остальными
+                                       блоками.Однако, они не равны, как могло бы показаться:
+                                       промежутки суммируются и между двумя блоками расстояние в два раза
+                                       больше, чем между блоком и началом/концом оси.*/
+    align-items: center;
+}
+
+.statistics_info{
+    text-align: center;
+}
+
+.statistics_number{
+    color:#863f05;
+    font-weight: bold;
+    font-size: 75px;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+.statistics_name{
+    color:#fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}

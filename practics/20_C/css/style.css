@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu_inner{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between; /*Блоки распределены вдоль главной (горизонтальной)
+                                        оси, при этом первый элемент прижат к началу оси,
+                                         а последний - к концу.*/
+    align-items: center;
+    font-family: sans-serif; /* шрифт без засечек*/
+
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li a{
+    text-transform: uppercase; /*заглавные буквы*/
+    color: #999;
+    text-decoration: none; /*убрали почеркивание и синий цвет у ссылок*/
+    padding: 10px 20px;
+}
+
+/*выделяем элементы меню при наведении*/
+.nav li a:hover{
+    background-color:#ffc744;
+    color: #fff; /*цвет текста*/
+    border-radius: 5px;
+}

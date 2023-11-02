@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0;
+    height: 690px;
+    background-image: url("../img/Layer 1.png");
+    padding-top:40px ;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:130px;
+}
+
+.logo_head{
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.navigation li{
+    display: block;
+}
+
+.navigation li a{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    line-height: 40px;
+    display: block;
+}
+
+.navigation li:first-child{
+    margin-left: -15px;
+}
+
+.navigation li:last-child{
+    margin-right: -15px;
+}
+
+.navigation li a:hover{
+    background-color:#130e27;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 90px;
+    font-family: sans-serif;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+}
+
+h1 span{
+    color: white;
+}
+
+.header_text{
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: #ffffff;
+    line-height: 28px;
+    max-width: 495px;
+}
+
+.our_services{
+    margin-bottom: 70px;
+}
+
+.h2_services{
+    font-size: 50px;
+    font-family: "Couture";
+    color: #130e27;
+    font-weight: bold;
+}
+
+.h2_services span{
+    color: #c62314;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.serv_item{
+    text-align: center;
+}
+
+.serv_img{
+    margin-bottom:50px ;
+}
+
+.services_text{
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: #161616;
+    line-height: 28px;
+}
+
+.our_story{
+    background-color: #130e27;
+    height: 120px;
+
+}
+
+.our_story_in{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.story_text{
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: #ffffff;
+    line-height: 28px;
+    max-width: 620px;
+}
+.but_our_story{
+    display: block;
+    padding: 25px 70px ;
+    background-color:#c62314;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.pricing{
+    background-color: #efefef;
+}
+
+.pricing_in{
+    padding:65px 0;
+    text-align: center;
+}
+
+.h2_pricing{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    margin: 0 auto 55px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_item{
+    padding: 30px 50px 10px 50px ;
+    background-color: white;
+}
+
+.tariff{
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: #454545;
+    line-height: 28px;
+}
+
+.tariff_main{
+    margin-bottom: 25px;
+}
+
+.tariff_include{
+    margin-bottom: 30px;
+}
+
+.price{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 80px;
+}
+
+a.price_butt{
+    display: block;
+    padding: 13px 70px ;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color:#130e27;
+    min-width: 205px ;
+}
+
+span a.price_butt{
+    background-color: #c62314;
+}
+
+.footer{
+    background-color:#130e27;
+}
+
+.footer_in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:55px 0 ;
+}
+
+.footer_text{
+    color: white;
+    font-size: 20px;
+    font-family: "PT Serif";
+}
+
+.footer_text span{
+    color: #c62314 ;
+}
+
+.logo_footer{
+    display: block;
+}
+
+

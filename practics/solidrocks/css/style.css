@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border: solid red 2px;
+    background-color: #494B68;
+}
+
+.menu_left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+}
+
+
